@@ -1,6 +1,4 @@
-var test = {}; 
-test.test =  function() {
-	alert(1);
-}
-
+function test() {alert(1);};
+var test;
+test.test = test;
 test.test();
